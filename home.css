@@ -1,0 +1,10 @@
+body {
+  /* background-image: url('https://opengameart.org/sites/default/files/sky1.png'); */
+  background-image: url('https://i.ytimg.com/vi/8BcBNaSo8EQ/maxresdefault.jpg');
+  /* background-image: url('https://cdn2.vectorstock.com/i/1000x1000/13/91/nature-game-background-landscape-vector-3741391.jpg'); */
+
+ 
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+}

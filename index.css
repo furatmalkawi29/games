@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url('https://opengameart.org/sites/default/files/sky1.png'); */
+  background-image: url('https://i.ytimg.com/vi/8BcBNaSo8EQ/maxresdefault.jpg');
+  background-image: url('backk.jpg');
+
+ 
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+}
+
+
+.user {
+  display: flex;
+  justify-content: center;
+}
+
+.race-ground {
+  background-image: url('./ground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15%;
+  border-radius: 8px;
+}
+
+.character-and-ground {
+  width: 70%;
+}
+
+.username-char {
+  display: flex;
+}
+
+.races{
+  width:80%;
+  margin: auto;
+  border: 2px rgb(255, 255, 255,1) solid;
+  border-radius: 1em;
+  padding: .5em;
+  background-color: rgb(255, 255, 255,.6);
+  box-shadow: 1px 5px 20px -11px #000000;
+  margin-top: 1em;
+}
+
+.results {
+  border: 2px rgb(255, 255, 255,0) solid;
+  border-radius: .2em;
+  padding: .3em;
+  background-color: rgba(255, 255, 255, 0.6);
+  margin: auto;
+  width:22%;
+  box-shadow: 1px 5px 27px -14px #000000;
+}
+
+.door {
+  width: 6%;
+  height: 4%;
+  align-self: center;
+}
+
+.results img {
+  width:10%;
+  height: 40%;
+  margin-right: 2%;
+}
+
+.results p {
+  width: 75%;
+  margin: 0%;
+  font-size: small;
+  display: inline;
+}
+
+.character {
+  width:4em;
+}
+
+.user:nth-child(4) .character, .user:nth-child(5) .character {
+  width:3em;
+}
+
+.mistakes-and-speed {
+  display: flex;
+}
